@@ -21,19 +21,19 @@
 
               combo_ctrl {
                  timeout-ms = <50>;
-                 key-positions = <41 42>;
+                 key-positions = <40 41>;
                  bindings = <&kp RCTRL>;
               };
 
               combo_f11 {
                  timeout-ms = <50>;
-                 key-positions = <37 38>;
+                 key-positions = <36 37>;
                  bindings = <&kp F11>;
               };
 
               combo_caps {
                  timeout-ms = <50>;
-                 key-positions = <38 39>;
+                 key-positions = <37 38>;
                  bindings = <&kp CAPS>;
               };           
 
