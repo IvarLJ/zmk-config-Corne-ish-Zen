@@ -14,17 +14,31 @@
 #define SYMBOL 2
 #define NAVI 3
 
+/ {
+        combos {
+              compatible = "zmk,combos";
 
-/*
-*       combos {
-*               compatible = "zmk,combos";
-*               combo_ctrl {
-*                  timeout-ms = <50>;
-*                  key-positions = <37 38>;
-*                  bindings = <&kp LCTRL>;
-*               };
-*       };
-*/
+
+              combo_ctrl {
+                 timeout-ms = <50>;
+                 key-positions = <41 42>;
+                 bindings = <&kp RCTRL>;
+              };
+
+              combo_f11 {
+                 timeout-ms = <50>;
+                 key-positions = <37 38>;
+                 bindings = <&kp F11>;
+              };
+
+              combo_caps {
+                 timeout-ms = <50>;
+                 key-positions = <38 39>;
+                 bindings = <&kp CAPS>;
+              };           
+
+        };
+};
 
 / {
         keymap {
@@ -44,6 +58,7 @@
                   &kp LGUI &mo 1 &kp RET   &kp SPACE &mo 2 &kp RALT
                         >;
                 };
+
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
@@ -82,6 +97,6 @@
    &trans   &kp PG_UP  &kp PG_DN   &trans    &trans   &trans   &trans   &trans  &trans   &trans   &trans   &kp PG_DN
                     	     &kp LGUI &trans   &kp RET   &kp SPACE   &trans    &kp RALT
                         >;
-        };
+                };
         };
 };
