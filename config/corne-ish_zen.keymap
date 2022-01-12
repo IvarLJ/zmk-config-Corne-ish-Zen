@@ -17,10 +17,12 @@
 #define SYMBOL 2
 #define NAVI 3
 
-&kscan0 {
-    debounce-press-ms = <3>;
-    debounce-release-ms = <10>;
-};
+/* 
+* &kscan0 {
+*    debounce-press-ms = <3>;
+*    debounce-release-ms = <10>;
+* };
+*/
 
 / {
         keymap 
