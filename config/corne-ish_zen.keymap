@@ -37,7 +37,7 @@
 	        combo_CTRL {
                         timeout-ms = <COMBO_TIMEOUT>;
                         key-positions = <40 41>;
-                        bindings = <&kp RCTRL)>;
+                        bindings = <&kp RCTRL>;
                 };
                 combo_SALT {
                         timeout-ms = <COMBO_TIMEOUT>;
