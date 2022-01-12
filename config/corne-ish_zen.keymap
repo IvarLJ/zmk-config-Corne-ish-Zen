@@ -15,7 +15,7 @@
 #define NAVI 3
 
 /*
-*/ {
+* {
 *        combos {
 *              compatible = "zmk,combos";
 *
@@ -38,9 +38,9 @@
 *              };           
 *
 *        };
-*};
+* };
 */
-
+ 
 / {
         keymap {
                 compatible = "zmk,keymap";
