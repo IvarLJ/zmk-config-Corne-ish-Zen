@@ -17,7 +17,7 @@
 #define NAVI 3
 
 / {
-        keymap 
+        keymap  {
                 compatible = "zmk,keymap";
 
                 default_layer {
