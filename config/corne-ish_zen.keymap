@@ -81,9 +81,9 @@
 //                   | GUI |     | RET |   | SPC |    | ALT |
 
                         bindings = <
-   &trans   &kp HOME   &kp UP      &kp END   &trans   &trans   &trans   &trans  &trans   &trans   &reset   &kp DEL
-   &trans   &kp LEFT   &kp DOWN    &kp RIGHT &trans   &trans   &trans   &trans  &trans   &trans   &trans   &kp PG_UP
-   &trans   &kp PG_UP  &kp PG_DN   &trans    &trans   &trans   &trans   &trans  &trans   &trans   &trans   &kp PG_DN
+   &trans   &kp HOME   &kp UP      &kp END   &trans   &trans   &trans   &trans  &trans   &trans   &trans   &kp DEL
+   &trans   &kp LEFT   &kp DOWN    &kp RIGHT &trans   &trans   &trans   &trans  &trans   &trans   &trans  &kp PG_UP
+   &trans   &kp PG_UP  &kp PG_DN   &trans    &trans   &trans   &trans   &trans  &trans   &trans   &trans  &kp PG_DN
                     	     &kp LGUI &trans   &kp RET   &kp SPACE   &trans    &kp RALT
                         >;
                 };
